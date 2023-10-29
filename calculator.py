@@ -6,3 +6,11 @@ class Calculator:
     @staticmethod
     def subtract(minuend, subtrahend):
         return minuend - subtrahend
+
+    @staticmethod
+    def multiply(multiplicand, multiplier):
+        return multiplicand * multiplier
+
+    @staticmethod
+    def divide(dividend, devisor):
+        return dividend / devisor
