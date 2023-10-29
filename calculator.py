@@ -1,6 +1,8 @@
 class Calculator:
     @staticmethod
     def add(augend, addend):
+        if not (isinstance(augend, (int, float)) and isinstance(addend, (int, float))):
+            raise TypeError("Both augend and addend must be of type int or float")
         return augend + addend
 
     @staticmethod
