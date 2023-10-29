@@ -12,5 +12,5 @@ class Calculator:
         return multiplicand * multiplier
 
     @staticmethod
-    def divide(dividend, devisor):
-        return dividend / devisor
+    def divide(dividend, divisor):
+        return dividend / divisor
